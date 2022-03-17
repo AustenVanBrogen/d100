@@ -18,7 +18,15 @@ client.on('messageCreate', async(message) =>{
 
     if (command === 'roll')
     {
-        message.channel.send("That was a roll");
+        //message.channel.send("That was a roll");
+        let channel = message.author.channel;
+        channel.join().then(connection => {
+            // Yay, it worked!
+            console.log("Successfully connected.");
+          }).catch(e => {
+            // Oh no, it errored! Let's log it to console :)
+            console.error(e);
+          });
     }
 });
 
