@@ -1,0 +1,16 @@
+{
+  "name": "d100",
+  "version": "1.0.0",
+  "description": "A bot that rolls a d100. If you roll a 100 you get a surprise",
+  "main": "d100.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d100",
+    "dice",
+    "roll"
+  ],
+  "author": "Austen Van Brogen",
+  "license": "ISC"
+}
