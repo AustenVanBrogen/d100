@@ -12,5 +12,10 @@
     "roll"
   ],
   "author": "Austen Van Brogen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
